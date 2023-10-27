@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electronics Superstore</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+           /* background-image: url("images/electronics.png");*/
+        }
+        header {
+            background-color: #fc940d;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            z-index: 999;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+        nav {
+            background-color: #9b9999;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #0a090a;
+            transition: color 0.5s ease;
+        } 
+        nav ul li a:hover,
+        nav ul li a.active{
+            color: #1302fc;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #Products h2{
+padding-left: 40px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+color: #c04c08;
+text-align: center;
+}
+
+#Products p{
+    text-align: center;
+}
+
+.product {
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 190px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product .name {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product .stars {
+    color: gold;
+    font-size: 24px;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #333;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.webshop{
+width: 160px;
+height: 200px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 7px 7px 10px rgb(165, 133, 154);
+border: 1px solid #dbdad9;
+border-radius: 4px;
+margin: 15px 0;
+}
+
+.webshop:hover{
+box-shadow: 4px 4px 10px rgb(248, 168, 76);
+}
+
+.webshop h4{
+    width: 80%;
+    margin-bottom: 0px;
+}
+
+.webshop h4{
+    display:inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgb(248, 172, 6);
+}
+
+.webshop:nth-child(2) h4{
+    color: #fff;
+background-color: #c94f4f;
+}
+
+.webshop:nth-child(3) h4{
+    color: #fff;
+background-color: #e00b0b;
+}
+
+.webshop:nth-child(4) h4{
+    color: #fff;
+background-color: #af921191;
+}
+
+.webshop:nth-child(5) h4{
+    color: #fff;
+background-color: #08080891;
+}
+
+.webshop:nth-child(6) h4{
+    color: #fff;
+background-color: #02e70291;
+}
+
+.footer{
+    background-color:#f8b31d;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Electronics Superstore</h1>
+        <p>Your best shop for the latest electronics all in one.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+    </nav>
+
+    <section id="note">
+        <h1>Welcom to Destiny Electronics</h1> 
+     <h4> Destiny electonics is your number one kenya's electronics products seller.</h4>
+    <h4> Explore our products at the best market prices here in kenya.</h4>
+     <h5> Place your order from destiny electronics and have them derivered at your doorstep at affordable prices </h5>
+     <p color = "#f8b31d">click here</p><button><a href="shop.html">shop now</a></button></p>
+ </section>
+ <section id="feature">
+    <div class="webshop">
+        <img src="images/onlineshop.jpeg" alt="">
+        <h4>web shop</h4>
+    </div>
+    <div class="webshop">
+        <img src="images/freedelivery.jpeg" alt="">
+        <h4>free delivery</h4>
+    </div>
+    <div class="webshop">
+        <img src="images/bestprice.jpeg" alt="">
+        <h4>best prices</h4>
+    </div>
+    <div class="webshop">
+        <img src="images/qualityelectronics.jpeg" alt="">
+        <h4>quality electronics</h4>
+    </div>
+    <div class="webshop">
+        <img src="images/warranty.png" alt="">
+        <h4> Warranty</h4>
+    </div>
+    <div class="webshop">
+        <img src="images/new.jpeg" alt="">
+        <h4>new arrivals</h4>
+    </div>
+    </section>
+ <p>Enjoy our services on web shopping, you are guaranteed quality product with 3 mouths warrant </p>
+
+    <section id="Products">
+        <h2>OUR FEATURED PRODUCT.</h2> 
+        <P>Destiny Electronic's newest product in the market</P>
+        <div class="product">      
+            <img src="images/product/gamepad.png" alt="gamepad">
+            <div class="name">gamepad</div>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Example star ratings -->
+            <div class="price">ksh.1700</div>
+        </div>
+        <div class="product">
+            <img src="images/product/generator.png" alt="generator">
+            <div class="name">generator</div>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div> <!-- Example star ratings -->
+            <div class="price">ksh.27050</div>
+        </div>
+        <div class="product">
+            <img src="images/product/coffeemachine.png" alt="coffeemachine">
+            <div class="name">coffeemachine</div>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div> <!-- Example star ratings -->
+            <div class="price">ksh.9999</div>
+        </div> 
+        <div class="product">
+            <img src="images/product/camera.png" alt="camera">
+            <div class="name">camera</div>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div> <!-- Example star ratings -->
+            <div class="price">ksh.72000</div>
+        </div>
+        <div class="product">
+            <img src="images/product/antenna.png" alt="antenna">
+            <div class="name">antenna</div>
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div> <!-- Example star ratings -->
+            <div class="price">ksh.7000</div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <h4>Contact Us</h4>
+            <p>tel: 0713301033</p>
+            <p>Email: robinkim596@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
